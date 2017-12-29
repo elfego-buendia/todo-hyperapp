@@ -1,0 +1,15 @@
+.todo input[type=text] {
+  border: none;
+  background: transparent;
+  width: 75%;
+  outline: none;
+}
+.todo input[type=text]::placeholder {
+  font-style: italic;
+}
+
+.todo input[type=checkbox]:checked + input {
+  color: #555;
+  font-style: italic;
+  text-decoration: line-through;
+}

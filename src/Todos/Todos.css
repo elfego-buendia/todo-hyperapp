@@ -1,0 +1,11 @@
+.todos .card-header {
+  border-bottom: 1px solid #dbdbdb;
+}
+.todos .card-header {box-shadow: none;}
+.todos .card-content li .panel-block {
+  border: none;
+  border-bottom: 1px solid #dbdbdb;
+}
+.todos .card-content li:last-child .panel-block {
+  border: none;
+}
